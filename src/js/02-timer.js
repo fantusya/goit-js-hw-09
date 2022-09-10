@@ -10,7 +10,6 @@ const hoursSpan = document.querySelector('[data-hours]');
 const minutesSpan = document.querySelector('[data-minutes]');
 const secondsSpan = document.querySelector('[data-seconds]');
 const fieldEl = document.querySelectorAll('.field');
-console.log(fieldEl)
 
 startButton.addEventListener('click', onStartButtonClick);
 
